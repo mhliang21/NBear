@@ -1,5 +1,42 @@
-[TOC]
-
+- [CCF A](#ccf-a)
+  - [NSDI](#nsdi)
+    - [2022](#2022)
+      - [标题：MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters](#标题mlaas-in-the-wild-workload-analysis-and-scheduling-in-large-scale-heterogeneous-gpu-clusters)
+    - [2021](#2021)
+      - [标题：Ownership: A Distributed Futures System for Fine-Grained Tasks](#标题ownership-a-distributed-futures-system-for-fine-grained-tasks)
+  - [OSDI](#osdi)
+    - [2018](#2018)
+      - [标题：Ray: A Distributed Framework for Emerging AI Applications](#标题ray-a-distributed-framework-for-emerging-ai-applications)
+  - [SIGCOMM](#sigcomm)
+    - [2021](#2021-1)
+      - [标题：Hoplite: Efficient and Fault-Tolerant Collective Communication for Task-Based Distributed Systems](#标题hoplite-efficient-and-fault-tolerant-collective-communication-for-task-based-distributed-systems)
+  - [SIGKDD](#sigkdd)
+    - [2021](#2021-2)
+      - [标题：Simple and Automatic Distributed Machine Learning on Ray](#标题simple-and-automatic-distributed-machine-learning-on-ray)
+  - [SOSP](#sosp)
+    - [2019](#2019)
+      - [标题：Lineage Stash: Fault Tolerance Off the Critical Path](#标题lineage-stash-fault-tolerance-off-the-critical-path)
+- [CCF B](#ccf-b)
+  - [HotOs](#hotos)
+    - [2017](#2017)
+      - [标题：Real-Time Machine Learning: The Missing Pieces](#标题real-time-machine-learning-the-missing-pieces)
+- [CCF C](#ccf-c)
+  - [BIGDATA](#bigdata)
+    - [2017](#2017-1)
+      - [标题：Imbalance in the Cloud: an Analysis on Alibaba Cluster Trace](#标题imbalance-in-the-cloud-an-analysis-on-alibaba-cluster-trace)
+- [arvix](#arvix)
+    - [2022](#2022-1)
+      - [标题：Exoshuffle Large-Scale Shuffle at the Application Level](#标题exoshuffle-large-scale-shuffle-at-the-application-level)
+- [SCI](#sci)
+    - [2017](#2017-2)
+      - [标题：Ensemble learning for data stream analysis: A survey(2017)](#标题ensemble-learning-for-data-stream-analysis-a-survey2017)
+- [其他](#其他)
+    - [2021](#2021-3)
+      - [标题：Towards Creating a Generalized Complex Event Processing Operator Using FlinkCEP: Architecture & Benchmark(2021)](#标题towards-creating-a-generalized-complex-event-processing-operator-using-flinkcep-architecture--benchmark2021)
+    - [2016](#2016)
+      - [标题：SPARKNET TRAINING DEEP NETWORKS IN SPARK(2016，192引用)](#标题sparknet-training-deep-networks-in-spark2016192引用)
+- [团队：](#团队)
+  - [UC Berkely](#uc-berkely)
 
 
 ### CCF A
@@ -107,9 +144,7 @@ PS：分布式futures指其值最终可能存储在远程节点的引用。
 
 ### 其他
 
-###### 标题：SPARKNET TRAINING DEEP NETWORKS IN SPARK(2016，192引用)    
-
-简介：针对批处理训练框架的不支持异步和通信密集型负载，提出Sparknet，提供获取信息的接口和扩展规模的接口。提供在IMageNet上量化了加速比，通信频率，开销数据。
+##### 2021
 
 ###### 标题：Towards Creating a Generalized Complex Event Processing Operator Using FlinkCEP: Architecture & Benchmark(2021)
 
@@ -117,8 +152,11 @@ PS：Complex Event Processing (CEP)
 
 简介：**FlinkCEP**将模式检测扩展到集群和云。FlinkCEP语言具有高表达能力和要监控的模式参数化繁琐。本文提出了能扩展正则表达的输入规范和自动重写的operator。
 
+##### 2016
 
+###### 标题：SPARKNET TRAINING DEEP NETWORKS IN SPARK(2016，192引用)    
 
+简介：针对批处理训练框架的不支持异步和通信密集型负载，提出Sparknet，提供获取信息的接口和扩展规模的接口。提供在IMageNet上量化了加速比，通信频率，开销数据。
 
 
 ### 团队：
@@ -139,4 +177,4 @@ PS：Complex Event Processing (CEP)
 
 - Stephanie Wang
 
-![image-20220506151127255](https://raw.githubusercontent.com/tenthousands/mhlpicgo/main/img/2022/202205162219845.png/img/2022/202205162221676.png)
+![image-20220506151127255](https://raw.githubusercontent.com/tenthousands/mhlpicgo/main/img/2022/202205162219845.png)
